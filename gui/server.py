@@ -73,7 +73,6 @@ if __name__=='__main__':
 				flag=0
 				
 				name=connection.recv(4096).decode().strip()
-				print(name,"t")
 				for i in name_list:
 					if name==i:
 						connection.send("false".encode())
