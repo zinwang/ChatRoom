@@ -14,6 +14,7 @@ def broadcast(sock,msg):
 				connection_list.remove(socket)
 
 
+				
 def leave(sock,name,addr):
 	#diconnect function
 	global log
