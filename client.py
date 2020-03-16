@@ -2,9 +2,9 @@ import sys
 from PyQt5.QtWidgets import QDialog, QMainWindow, QApplication
 from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtGui import QFont
-import loginframe 
-import roomframe
-import errorframe
+from frames import loginframe 
+from frames import roomframe
+from frames import errorframe
 import socket
 import time
 
