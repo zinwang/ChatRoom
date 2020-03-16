@@ -1,3 +1,3 @@
 # ChatRoom
 
-python 簡易聊天室
+python gui 簡易聊天室
