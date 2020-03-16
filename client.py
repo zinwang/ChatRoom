@@ -4,6 +4,7 @@ flag = 0
 msg = ''
 lock = threading.Lock()
 
+
 #host = '127.0.0.1'
 #port = 5002
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
